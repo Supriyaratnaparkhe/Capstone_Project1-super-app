@@ -1,0 +1,53 @@
+.notes-box {
+  width: 240px;
+  height: 330px;
+  border-radius: 19px;
+  background: #f1c75b;
+  margin-top: 10px;
+  padding: 20px;
+}
+#notes-heading {
+  color: #000;
+  font-family: Roboto;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 105.688%;
+  letter-spacing: 0.76px;
+}
+.note-input {
+  width: 240px;
+  height: 260px;
+  margin-left: 10px;
+  background: #f1c75b;
+  border: none;
+  resize: none;
+  color: #000;
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105.688%;
+  letter-spacing: 0.84px;
+  margin: 10px;
+  outline: none;
+}
+textarea::-webkit-scrollbar {
+  width: 15px;
+  padding: 20px;
+  border-radius: 17px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: #f1c75b;
+  border-radius: 17px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: #ffe6a6;
+  border-radius: 17px;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+  background: #ffe6a6;
+}

@@ -1,0 +1,14 @@
+.Home{
+    display:flex;
+    gap:30px;
+    flex-direction: row;
+}
+.left-cards{
+    display: flex;
+    flex-direction:column;
+    gap:20px;
+}
+.upper-card{
+    display: flex;
+    gap:20px;
+}

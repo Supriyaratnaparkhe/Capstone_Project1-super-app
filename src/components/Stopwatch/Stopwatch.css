@@ -1,0 +1,111 @@
+.countdown-timer {
+  display: flex;
+  width: 800px;
+  height: 150px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 19px;
+  background: #1e2343;
+  margin-left: 30px;
+}
+.displayTime-box {
+  border-radius: 282px;
+  width: 130px;
+  height: 130px;
+  background: #191e39;
+  box-shadow: 0px 6px 26px 0px rgba(0, 0, 0, 0.61) inset,
+    -3px -7px 16px 0px rgba(95, 88, 88, 0.23);
+}
+.circle {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.remaining-time {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 105.688%;
+  letter-spacing: 1.6px;
+}
+.setTime-box {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+.time-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.dot {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 105.688%;
+  letter-spacing: 2.24px;
+  margin-top: 30px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.time-name {
+  color: #949494;
+  font-family: Roboto;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105.688%;
+  letter-spacing: 1.04px;
+}
+.time-field input {
+  width: 50px;
+  color: #fff;
+  text-align: center;
+  border: none;
+  background: none;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 105.688%;
+  letter-spacing: 2px;
+}
+.toggle-button button {
+  width: 250px;
+  height: 25px;
+  border-radius: 20px;
+  border: none;
+  background: #ff6a6a;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105.688%;
+  letter-spacing: 1.24px;
+}
+/* .time-field input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+} */
+
+.time-field input[type="number"]::-webkit-inner-spin-button,
+.time-field input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.arrow-up,
+.arrow-down {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+}

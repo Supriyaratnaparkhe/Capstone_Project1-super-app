@@ -1,0 +1,45 @@
+.browse-ent {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: auto;
+  height: 600px;
+  overflow: auto;
+}
+.browse-ent::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+.browse-ent::-webkit-scrollbar-track {
+  background-color: #000;
+}
+.head-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.head-name {
+  color: #72db73;
+  font-family: Single Day;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+}
+.back-button img {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+.entertainment-container {
+  margin-left: 20px;
+}
+.entertainment-container h2 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 139.688%;
+  letter-spacing: 0.608px;
+  margin-top: -10px;
+}

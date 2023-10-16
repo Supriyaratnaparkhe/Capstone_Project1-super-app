@@ -1,0 +1,18 @@
+.browse-button button {
+  border-radius: 34.777px;
+  background: #148a08;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 92.2%;
+  letter-spacing: 0.471px;
+}
+.browse-button {
+  text-align: end;
+  margin-top: 15px;
+}

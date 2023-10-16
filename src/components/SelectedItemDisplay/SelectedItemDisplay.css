@@ -1,0 +1,37 @@
+.display-box {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto;
+}
+.display-item {
+  display: flex;
+  width: 140px;
+  height: 40px;
+  border-radius: 31px;
+  background: #148a08;
+  align-items: center;
+  justify-content: space-between;
+}
+.display-item .item-name {
+  margin-left: 10px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105.688%;
+  letter-spacing: 0.503px;
+}
+.display-item button {
+  color: #085c00;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105.688%;
+  letter-spacing: 0.527px;
+  background: none;
+  border: none;
+  margin-right: 5px;
+  cursor: pointer;
+}

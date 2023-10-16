@@ -1,0 +1,15 @@
+.next-page button {
+  width: 130px;
+  height: 40px;
+  border-radius: 38.857px;
+  background: #148a08;
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 92.2%;
+  letter-spacing: 0.526px;
+  cursor: pointer;
+}

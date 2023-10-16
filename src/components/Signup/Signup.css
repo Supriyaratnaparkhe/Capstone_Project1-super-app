@@ -1,0 +1,118 @@
+body{
+  overflow: hidden;
+}
+.container1 {
+  display: flex;
+  background: #000;
+}
+.image-side {
+  background-image: url("../assets/image1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 600px;
+}
+.image-side .heading {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 141.688%;
+  letter-spacing: 1.1px;
+  margin-left: 40px;
+  margin-top: 450px;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  justify-content: center;
+
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+  margin-left: 140px;
+  margin-top: -30px;
+}
+#super {
+  color: #72db73;
+  font-family: Single Day;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+  text-align: center;
+}
+.super-heading {
+  text-align: center;
+}
+.input-box {
+  border-radius: 3.816px;
+  background: #292929;
+  width: 400px;
+  height: 35px;
+}
+input,
+select,
+textarea {
+  color: #fff;
+}
+.checkbox {
+  text-align: left;
+  color: #7c7c7c;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+  letter-spacing: 0.401px;
+}
+.checkbox input {
+  cursor: pointer;
+}
+.signup-btn {
+  width: 400px;
+  height: 40px;
+  border-radius: 28px;
+  background: #72db73;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+#signbut {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 108.688%;
+  letter-spacing: 0.58px;
+}
+.rule {
+  color: #7c7c7c;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 141.688%;
+  letter-spacing: 0.36px;
+  width: 400px;
+  text-align: left;
+}
+.terms {
+  color: #72db73;
+}
+.error {
+  color: #f00;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+  letter-spacing: 0.401px;
+  text-align: left;
+}

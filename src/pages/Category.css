@@ -1,0 +1,38 @@
+body {
+  background-color: #000;
+}
+.category {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  margin-left: 50px;
+}
+.right {
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.appname {
+  color: #72db73;
+  font-family: Single Day;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+}
+.content-heading {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 139.688%;
+}
+.display-category {
+  margin-top: 20px;
+}
+.next-button {
+  text-align: end;
+  margin-right: 50px;
+  margin-top: 30px;
+}
