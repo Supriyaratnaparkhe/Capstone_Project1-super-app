@@ -48,7 +48,7 @@ const WeatherCard = () => {
           <div className="weather-icon">
             <img
               src={weatherInfo && weatherInfo.current.condition.icon}
-              alt="react-image"
+              alt="noimg"
             />
           </div>
           <div className="weather-condition">
@@ -56,7 +56,7 @@ const WeatherCard = () => {
           </div>
         </div>
         <div className="line">
-          <img src={line1} alt="react-image" />
+          <img src={line1} alt="noimg" />
         </div>
         <div className="part-2">
           <div className="temperature">
@@ -64,7 +64,7 @@ const WeatherCard = () => {
           </div>
           <div className="pressure">
             <div>
-              <img src={thermometer} alt="react-image" />
+              <img src={thermometer} alt="noimg" />
             </div>
             <div>
               {" "}
@@ -74,12 +74,12 @@ const WeatherCard = () => {
           </div>
         </div>
         <div className="line">
-          <img src={line1} alt="react-image" />
+          <img src={line1} alt="noimg" />
         </div>
         <div className="part-3">
           <div className="wind-speed">
             <div>
-              <img src={wind} alt="react-image" />
+              <img src={wind} alt="noimg" />
             </div>
             <div>
               {weatherInfo && weatherInfo.current.wind_kph} km/h <br /> Wind
@@ -87,7 +87,7 @@ const WeatherCard = () => {
           </div>
           <div className="humidity">
             <div>
-              <img src={humid} alt="react-image" />
+              <img src={humid} alt="noimg" />
             </div>
             <div>
               {weatherInfo && weatherInfo.current.humidity}% <br /> Humidity
