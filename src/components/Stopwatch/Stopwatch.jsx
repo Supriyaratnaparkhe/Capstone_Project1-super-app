@@ -148,6 +148,7 @@ const Stopwatch = () => {
                 src={uparrow}
                 className="arrow-up"
                 onClick={() => handleIncrement("hours")}
+                alt="noimg"
               />
             </div>
             <div className="time-field">
@@ -164,6 +165,7 @@ const Stopwatch = () => {
                 src={downarrow}
                 className="arrow-down"
                 onClick={() => handleDecrement("hours")}
+                alt="noimg"
               />
             </div>
           </div>
@@ -177,6 +179,7 @@ const Stopwatch = () => {
                 src={uparrow}
                 className="arrow-up"
                 onClick={() => handleIncrement("minutes")}
+                alt="noimg"
               />
             </div>
 
@@ -196,6 +199,7 @@ const Stopwatch = () => {
                 src={downarrow}
                 className="arrow-down"
                 onClick={() => handleDecrement("minutes")}
+                alt="noimg"
               />
             </div>
           </div>
@@ -209,6 +213,7 @@ const Stopwatch = () => {
                 src={uparrow}
                 className="arrow-up"
                 onClick={() => handleIncrement("seconds")}
+                alt="noimg"
               />
             </div>
             <div className="time-field">
@@ -227,6 +232,7 @@ const Stopwatch = () => {
                 src={downarrow}
                 className="arrow-down"
                 onClick={() => handleDecrement("seconds")}
+                alt="noimg"
               />
             </div>
           </div>
