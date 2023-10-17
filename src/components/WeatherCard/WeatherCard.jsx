@@ -10,7 +10,7 @@ const WeatherCard = () => {
 
   useEffect(() => {
     fetch(
-      "http://api.weatherapi.com/v1/current.json?key=775260f4ae964de699380148230910&q=Nanded&aqi=yes"
+      "https://api.weatherapi.com/v1/current.json?key=775260f4ae964de699380148230910&q=Nanded&aqi=yes"
     )
       .then((res) => res.json())
       .then((weatherInfo) => {
