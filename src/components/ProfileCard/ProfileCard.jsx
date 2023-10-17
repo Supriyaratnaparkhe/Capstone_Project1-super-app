@@ -8,7 +8,7 @@ const ProfileCard = () => {
   return (
     <div className="profile-card">
       <div className="image-profile">
-        <img src={image14} alt="React Image" />
+        <img src={image14} alt="noimg" />
       </div>
       <div className="user-info">
         <h3>{storedUserData.Name}</h3>
