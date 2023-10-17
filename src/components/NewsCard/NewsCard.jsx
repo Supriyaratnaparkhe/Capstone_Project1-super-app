@@ -4,48 +4,27 @@ const NewsCard = () => {
   const [news, setNews] = useState(null);
 
   useEffect(() => {
-    // const apiKey = "0da022124fd441b995f0a45e5ee56c20";
-    // const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
+    const apiKey = "0da022124fd441b995f0a45e5ee56c20";
+    const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
 
-    // fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=0da022124fd441b995f0a45e5ee56c20`)
-    //   .then((response) => {
-    //     if (!response.ok) {
-    //       throw new Error("Network response was not ok");
-    //     }
-    //     return response.json();
-    //   })
-    //   .then((data) => {
-    //     const articles = data.articles;
-    //     const randomIndex = Math.floor(Math.random() * articles.length);
-    //     const randomArticle = articles[randomIndex];
-    //     setNews(randomArticle);
-    //   })
-    //   .catch((error) => {
-    //     console.error("Error fetching news:", error);
-    //   });
-
-    const fetchData = async () => {
-      try {
-        // const apiKey = "0da022124fd441b995f0a45e5ee56c20";
-        // const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
-
-        const response = await fetch(`https://newsapi.in/newsapi/news.php?key=aEqf3UEo410vaZkwDsjbmUsaXswWs6`);
-
+    fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=0da022124fd441b995f0a45e5ee56c20`)
+      .then((response) => {
         if (!response.ok) {
-          throw new Error(`Network response was not ok: ${response.status}`);
+          throw new Error("Network response was not ok");
         }
-        const data = await response.json();  
-        
+        return response.json();
+      })
+      .then((data) => {
         const articles = data.articles;
         const randomIndex = Math.floor(Math.random() * articles.length);
         const randomArticle = articles[randomIndex];
         setNews(randomArticle);
-      } catch (error) {
+      })
+      .catch((error) => {
         console.error("Error fetching news:", error);
-      }
-    };
+      });
 
-    fetchData();
+    
   }, []);
   return (
     <div className="newscard">
