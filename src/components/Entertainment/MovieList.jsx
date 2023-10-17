@@ -7,7 +7,7 @@ const MovieList = ({ genre, apiKey }) => {
     const fetchMoviesByGenre = async () => {
       try {
         const response = await fetch(
-          `http://www.omdbapi.com/?s=${genre}&type=movie&apikey=${apiKey}`
+          `https://www.omdbapi.com/?s=${genre}&type=movie&apikey=${apiKey}`
         );
         
         const data = await response.json();
