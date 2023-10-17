@@ -4,10 +4,10 @@ const NewsCard = () => {
   const [news, setNews] = useState(null);
 
   useEffect(() => {
-    const apiKey = "0da022124fd441b995f0a45e5ee56c20";
-    const apiUrl = "https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}";
+    // const apiKey = "0da022124fd441b995f0a45e5ee56c20";
+    // const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
 
-    fetch(apiUrl)
+    fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=0da022124fd441b995f0a45e5ee56c20`)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
