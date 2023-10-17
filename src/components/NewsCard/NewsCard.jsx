@@ -29,7 +29,7 @@ const NewsCard = () => {
         // const apiKey = "0da022124fd441b995f0a45e5ee56c20";
         // const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
 
-        const response = await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=0da022124fd441b995f0a45e5ee56c20`);
+        const response = await fetch(`https://newsapi.in/newsapi/news.php?key=aEqf3UEo410vaZkwDsjbmUsaXswWs6`);
 
         if (!response.ok) {
           throw new Error(`Network response was not ok: ${response.status}`);
@@ -56,7 +56,7 @@ const NewsCard = () => {
             style={{
               backgroundImage: `url(${
                 news
-                  ? news.urlToImage
+                  ? news.image
                   : "https://www.shutterstock.com/image-vector/breaking-news-background-world-global-260nw-719766118.jpg"
               })`,
               width: "320px",
@@ -74,7 +74,7 @@ const NewsCard = () => {
             </div>
           </div>
           <div className="news-description" id="style1">
-            <div className="news-text">{news.content}</div>
+            <div className="news-text">{news.description}</div>
           </div>
         </div>
       ) : (
