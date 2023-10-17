@@ -53,14 +53,6 @@ const Signup = () => {
 
       navigate("/category");
     }
-    
-    
-
-    
-    console.log("Name is:", UserState.Name);
-    console.log("UserName is:", UserState.userName);
-    console.log("Email is:", UserState.email);
-    console.log("Mobile is:", UserState.mobile);
   };
 
   const updateForm = (e) => {
