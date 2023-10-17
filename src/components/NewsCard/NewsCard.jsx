@@ -5,7 +5,7 @@ const NewsCard = () => {
 
   useEffect(() => {
     const apiKey = "0da022124fd441b995f0a45e5ee56c20";
-    const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
+    const apiUrl = "https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}";
 
     fetch(apiUrl)
       .then((response) => {
