@@ -23,7 +23,7 @@ const Card = ({ onAdd, selectedItems }) => {
         >
           <div className="title">Action</div>
           <div className="picture">
-            <img onClick={() => onAdd(1)} src={image2} alt="React Image" />
+            <img onClick={() => onAdd(1)} src={image2} alt="noimg" />
           </div>
         </div>
         <div
@@ -35,7 +35,7 @@ const Card = ({ onAdd, selectedItems }) => {
         >
           <div className="title">Drama</div>
           <div className="picture">
-            <img onClick={() => onAdd(2)} src={image3} alt="React Image" />
+            <img onClick={() => onAdd(2)} src={image3} alt="noimg" />
           </div>
         </div>
         <div
@@ -47,7 +47,7 @@ const Card = ({ onAdd, selectedItems }) => {
         >
           <div className="title">Romance</div>
           <div className="picture">
-            <img onClick={() => onAdd(3)} src={image4} alt="React Image" />
+            <img onClick={() => onAdd(3)} src={image4} alt="noimg" />
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ const Card = ({ onAdd, selectedItems }) => {
         >
           <div className="title">Thriller</div>
           <div className="picture">
-            <img onClick={() => onAdd(4)} src={image6} alt="React Image" />
+            <img onClick={() => onAdd(4)} src={image6} alt="noimg" />
           </div>
         </div>
         <div
@@ -73,7 +73,7 @@ const Card = ({ onAdd, selectedItems }) => {
         >
           <div className="title">Western</div>
           <div className="picture">
-            <img onClick={() => onAdd(5)} src={image7} alt="React Image" />
+            <img onClick={() => onAdd(5)} src={image7} alt="noimg" />
           </div>
         </div>
         <div
@@ -85,7 +85,7 @@ const Card = ({ onAdd, selectedItems }) => {
         >
           <div className="title">Horror</div>
           <div className="picture">
-            <img onClick={() => onAdd(6)} src={image8} alt="React Image" />
+            <img onClick={() => onAdd(6)} src={image8} alt="noimg" />
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@ const Card = ({ onAdd, selectedItems }) => {
         >
           <div className="title">Fantacy</div>
           <div className="picture">
-            <img onClick={() => onAdd(7)} src={image9} alt="React Image" />
+            <img onClick={() => onAdd(7)} src={image9} alt="noimg" />
           </div>
         </div>
         <div
@@ -111,7 +111,7 @@ const Card = ({ onAdd, selectedItems }) => {
         >
           <div className="title">Music</div>
           <div className="picture">
-            <img onClick={() => onAdd(8)} src={image10} alt="React Image" />
+            <img onClick={() => onAdd(8)} src={image10} alt="noimg" />
           </div>
         </div>
         <div
@@ -123,7 +123,7 @@ const Card = ({ onAdd, selectedItems }) => {
         >
           <div className="title">Fiction</div>
           <div className="picture">
-            <img onClick={() => onAdd(9)} src={image11} alt="React Image" />
+            <img onClick={() => onAdd(9)} src={image11} alt="noimg" />
           </div>
         </div>
       </div>
